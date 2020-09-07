@@ -1,0 +1,70 @@
+ul {
+    list-style: square;
+    margin-left: 40vw;
+    margin-top: 50px;
+}
+
+li {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #81b8b8;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    margin-left: 100px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+.center {
+   margin-left: 400px;
+    margin-top: 100px;
+}
+
+button {
+    width: 200px;
+    margin: 15px 0 20px 160px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 3px;
+    background: rgb(64, 199, 195);
+    box-shadow: 0 -3px rgb(53, 163, 167) inset;
+    transition: 0.2s;
+    display: block;
+}
+
+button:hover {
+    background: rgb(53, 118, 167);
+    box-shadow: 0 -3px rgb(53, 118, 167) inset ;
+    cursor: pointer;
+}
+
+.back {
+    margin-left: 140px;
+}
+.title {
+    margin-left: 43vw;
+    margin-top: 100px;
+}
+.changePageTitle {
+    margin-left: 40vw;
+    margin-top: 100px;
+}
